@@ -1,0 +1,113 @@
+.button-group button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+/* селектор по элементу input, у которых атрибут = checkbox */
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #0056b3;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+/* Общие стили для страницы
+селектор по эдементу
+наследование всемии элементами body свойства font-family*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: monospace;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Стили для кнопок
+селектор по классу */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* селектор по псевдоклассу
+каскадирует верхнее правило*/
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+
+.checkbox-group label {
+    display: block;
+    margin: 5px 0;
+}
+
+.inputY, .inputR {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.graph  {
+    display: block;
+    height: 370px;
+    width: 370px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+#results th {
+    background-color: #e9ecef;
+}
+
+
+.input-error {
+    border: 1px solid red;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+
+form {
+    margin: 20px 0;
+}
