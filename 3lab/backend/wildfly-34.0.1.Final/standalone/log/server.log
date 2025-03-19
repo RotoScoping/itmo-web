@@ -1,0 +1,16 @@
+2025-03-16 18:01:45,785 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2025-03-16 18:01:45,927 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-03-16 18:01:45,969 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-03-16 18:01:46,024 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: '/server' from server 'default-server'
+2025-03-16 18:01:46,043 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = server.war_org.postgresql.Driver_42_7
+2025-03-16 18:01:46,063 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-03-16 18:01:46,105 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2025-03-16 18:01:46,205 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-16 18:01:46,225 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-16 18:01:46,259 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-16 18:01:46,260 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-16 18:01:46,261 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:13680
+2025-03-16 18:01:46,261 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:13679
+2025-03-16 18:01:46,265 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.3.18.Final stopping
+2025-03-16 18:01:46,306 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment server.war (runtime-name: server.war) in 276ms
+2025-03-16 18:01:46,323 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly 34.0.1.Final (WildFly Core 26.0.1.Final) stopped in 298ms

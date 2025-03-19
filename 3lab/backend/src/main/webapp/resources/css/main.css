@@ -1,0 +1,129 @@
+* {
+    font-family: sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: minmax(max-content, 2fr) 5fr minmax(max-content, 1fr) minmax(max-content, 1fr);
+    line-height: 55px;
+    height: 55px;
+    width: calc(100% - 40px);
+    margin: auto;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+input[type="text"]:focus {
+    outline: none
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: calc(100vh - 55px);
+    width: 100vw;
+}
+
+.main > div {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main__left-column {
+    display: grid;
+    grid-template-rows: max-content max-content auto;
+}
+
+.main__block {
+    margin: 15px 15px 0 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main__block .row {
+    margin: 13px auto;
+    width: fit-content;
+}
+
+.main__block .row > * {
+    display: inline-block;
+}
+
+.graph {
+    display: block;
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.input {
+    height: 23px;
+    margin-left: 5px;
+}
+
+.spinner {
+    margin-left: 5px;
+}
+
+.submit_button {
+    background-color: #4CAF50;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.submit_button:hover {
+    background-color: #45a049;
+}
+
+.submit_button:active {
+    background-color: #3d8b40;
+}
+
+.result-title {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.result-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#result {
+    padding-bottom: 1px;
+    overflow-y: auto;
+    max-height: calc(100vh - 130px);
+}
+
+.result-container > div {
+    padding: 5px;
+    box-shadow: 1px 1px #000000;
+}
+
+.return-link {
+    color: white;
+    text-decoration: underline;
+}
